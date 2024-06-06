@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>El Rincón de Isabel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="./book.png" alt="logo de la app"></div>  
+        <h1 class="titulo">El Rincón de Isabel</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicios</a></li>
+                <li><a href="./libros.html">Novelas</a></li>
+                <li><a href="./resenia.html">Reseñas</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <form role="search">
+            <input type="search" placeholder="Buscar" aria-label="Buscar">
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <section id="nosotros" class="sobre-nosotros">
+                <h2>Sobre Nosotros</h2>
+                <p>Bienvenidos a nuestro rincón literario, donde la pasión por los libros nos une. En este blog, exploramos y comentamos una amplia variedad de géneros literarios, con un enfoque especial en las novelas románticas. Cada reseña y artículo está pensado para ofrecerte una visión profunda y enriquecedora de las obras y sus autores.</p>
+                <p>Nos esforzamos por destacar no solo las tramas y personajes, sino también los contextos históricos y culturales que dan vida a cada historia. Valoramos el trabajo de los autores, y nuestro objetivo es proporcionar una plataforma donde sus voces puedan ser apreciadas y sus historias puedan resonar con una audiencia apasionada.</p>
+                <p>Únete a nosotros en este viaje literario, donde cada libro es una nueva aventura y cada autor es un narrador con una historia única que contar. Esperamos que disfrutes de nuestras reseñas y que encuentres inspiración en cada página que visites.</p>
+            </section>
+
+            <aside class="sidebar">
+                <h3>Categorías</h3>
+                <ul>
+                    <li><a href="#">Novelas Románticas</a></li>
+                    <li><a href="#">Fantasía</a></li>
+                    <li><a href="#">No Ficción</a></li>
+                    <li><a href="#">Poesía</a></li>
+                    <li><a href="#">Literatura Clásica</a></li>
+                </ul>
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/tureal.moren">Facebook</a></li>
+                    <li><a href="https://x.com/tureal1508">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/a_isabelalcantaraa/">Instagram</a></li>
+                </ul>
+            </aside>
+        </div>
+
+        <div class="informacion">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./imgCa/1.jpg" alt="Imagen 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imgCa/2.jpg" alt="Imagen 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imgCa/3.jpg" alt="Imagen 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imgCa/4.jpg" alt="Imagen 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imgCa/5.jpg" alt="Imagen 5">
+                    </div>
+                </div>
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-share">
+            <a href="https://www.facebook.com/tureal.moren"><img src="./image.png" alt="Facebook"></a>
+            <a href="https://x.com/tureal1508"><img src="./tw.jpg" alt="Twitter"></a>
+            <a href="https://www.instagram.com/a_isabelalcantaraa/"><img src="./ins.jpg" alt="Instagram"></a>
+        </div>
+        <p>&copy; Derechos reservados Isabel Alcantara 2024</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
